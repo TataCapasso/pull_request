@@ -19,9 +19,15 @@ git commit -m "message"
 ```sh
 git log
 ```
+Позволяет перемещаться между ветками, созданными командой git branch:
+```sh
+git checkout_<namber_version>
+```
+* Позволяет переключится на действующую ветку:
+```sh 
+    git checkout master
+```
 
-git checkout
-git checkout master
 git diff
 git config --global user.name "my name"
 git config --global user.email "my email"
@@ -35,5 +41,4 @@ pwd
 rm <file>
 dell <file>
 git log --oneline
-git checkout_<namber_version>
 git restore --staged<file>
