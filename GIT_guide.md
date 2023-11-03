@@ -13,10 +13,13 @@ git status
 ```
 Операция по добавлению всех проиндексированных файлов в репозиторий *(в кавычках пишем сообщение)*:
 ```sh
-git commit -m "message"
+git commit -m "message" 
+```
+Используется для просмотра истории коммитов, начиная с самого свежего и уходя к истокам проекта:
+```sh
+git log
 ```
 
-git log
 git checkout
 git checkout master
 git diff
