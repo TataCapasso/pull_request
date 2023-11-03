@@ -7,8 +7,10 @@ git init
 ```sh
 git add <file>
 ```
-
+Отображает состояние рабочего каталога и раздела проиндексированных файлов:
+```sh
 git status
+```
 git commit -m "message"
 git log
 git checkout
