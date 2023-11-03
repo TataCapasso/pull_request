@@ -27,12 +27,19 @@ git checkout_<namber_version>
 ```sh 
     git checkout master
 ```
+Команды для настройки значений конфигурации Git на глобальном и локальном уровнях проекта:
+* на глобальном уровне присваивает имя и адрес пользователя:
+```sh
+1. git config --global user.name "my name"
+2. git config --global user.email "my email"
+```
+* показывает имя и адрес пользователя:
+```sh
+1. git config user.name 
+2. git config user.email
+```
 
 git diff
-git config --global user.name "my name"
-git config --global user.email "my email"
-git config user.name 
-git config user.email
 cd 
 dir
 ls
