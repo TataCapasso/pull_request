@@ -24,6 +24,10 @@ git commit --amend
 ```sh
 git log
 ```
+Просмотр сокращенной версии коммитов:
+```sh
+git log --oneline
+```
 Позволяет перемещаться между ветками, созданными командой git branch:
 ```sh
 git checkout_<namber_version>
@@ -48,18 +52,33 @@ git checkout_<namber_version>
 git diff
 ```
 Узнать **директорию** файла:
-1. для Windows
+* для Windows
 ```sh
    dir
 ```
-2. для Linux и MacOs
+* для Linux и MacOs
 ```sh
    ls
 ```
-
-cd C:\folder_name
-pwd
-rm <file>
-dell <file>
-git log --oneline
-git restore --staged<file>
+Команда командной строки для изменения рабочего каталога, путь к катологу:
+* для Windows:
+```sh
+   cd C:\folder_name
+```
+* для Linux и MacOs:
+```sh
+   pwd
+```
+Удаление ненужных файлов:
+* для Windows:
+```sh
+   dell <file>
+```
+* для Linux и MacOs:
+```sh
+   rm <file>
+```
+Сбросить изменени:
+```sh
+git restore --staged <file>
+```
