@@ -38,11 +38,20 @@ git checkout_<namber_version>
 1. git config user.name 
 2. git config user.email
 ```
-
+Вычисление разницы между любыми двумя Git деревьями:
+```sh 
 git diff
-cd 
-dir
-ls
+```
+Узнать **директорию** файла:
+1. для Windows
+```sh
+   dir
+```
+2. для Linux и MacOs
+```sh
+   ls
+```
+
 cd C:\folder_name
 pwd
 rm <file>
